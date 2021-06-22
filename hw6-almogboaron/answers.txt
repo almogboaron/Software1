@@ -1,0 +1,9 @@
+1.The @inv inCorrect While it says that if !isEmpty() says that top()!=null
+But the implamentation of A Dll object inables a cell to hold a null
+which means a client is able to make a Dll list with diffrent objects and then push a null object 
+-> Than !isEmpty() But top() will return null,(If top() was implamented correctly though it will go into an infinate Loop.
+
+2.push method() - Does provide a good Contract for the method.
+3.pop() method -The contract implies that That the post effect will Only return the top object but infact in also Changes the Dll by excluding the last object that was pushed.  
+4.top() - Does provide a good Contract for the method , (though the implamentation will go into an infinate loop if the last object pushed was null.)
+5.isEmpty()- First the contract is Talking about an implamented function for Dll list that is not explained in the class, and @return == true if there is no elements in the Dll(!elements.size()> 0)  
